@@ -2,6 +2,6 @@
 
 TEMPLATE_URL=""
 aws cloudformation create-stack \
-    --stack-name RDS-state-scheduler  \
+    --stack-name EC2-state-scheduler  \
     --template-url ${TEMPLATE_URL}  \
     --capabilities CAPABILITY_IAM
