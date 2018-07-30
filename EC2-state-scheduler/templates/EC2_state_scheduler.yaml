@@ -66,10 +66,9 @@ Resources:
           - Sid: AccessToInstance
             Effect: Allow
             Action:
-            - rds:DescribeDBInstances
-            - rds:StartDBInstance
-            - rds:StopDBInstance
-            - rds:ListTagsForResource
+            - ec2:DescribeInstances
+            - ec2:StartInstances
+            - ec2:StopInstances
             Resource: "*"
   StartScheduledRule:
     Type: AWS::Events::Rule
