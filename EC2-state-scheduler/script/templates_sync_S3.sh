@@ -1,6 +1,8 @@
 #!/bin/bash
 
 SYNC_DIR="./templates"
+# example
+# S3_BUCKET_PATH="s3://cloud-formation/EC2_stete_scheduler/templates"
 S3_BUCKET_PATH=""
 
 trap 'exit 1' ERR
